@@ -1,0 +1,36 @@
+/* .basket {
+  margin: 20px;
+} */
+
+.basket__product {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  max-width: 500px;
+}
+
+.basket__img img {
+  width: 200px;
+  object-fit: contain;
+  height: 200px;
+}
+
+.basket__info {
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.basket__info * {
+  padding-bottom: 5px;
+}
+
+.basket__info > button {
+  padding: 5px;
+  cursor: pointer;
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: black;
+}
+
+/* 2:40 */
